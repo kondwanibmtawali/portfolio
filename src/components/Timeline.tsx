@@ -48,18 +48,7 @@ function Timeline() {
                         <h4 className="vertical-timeline-element-subtitle">Seward, NE</h4>
                         <p>
                             Computer Configuration, Network System Management, Cable Termination, IT Operations
-                        </p>
-                    </VerticalTimelineElement>
-                    <VerticalTimelineElement
-                        className="vertical-timeline-element--work"
-                        date="2020 - 2020"
-                        iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-                        icon={<FontAwesomeIcon icon={faBriefcase} />}
-                    >
-                        <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
-                        <p>
-                            Automation, Data Governance, Statistical Analysis
+
                         </p>
                     </VerticalTimelineElement>
                 </VerticalTimeline>

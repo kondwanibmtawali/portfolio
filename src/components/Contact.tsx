@@ -1,10 +1,8 @@
 import React, { useRef, useState } from 'react';
-import '/home/kondwani/github-portfolio/src/assets/styles/Contact.scss';
-// import emailjs from '@emailjs/browser';
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import SendIcon from '@mui/icons-material/Send';
-import TextField from '@mui/material/TextField';
+import '../assets/styles/Contact.scss';
+import emailjs from '@emailjs/browser';
+import { TextInput, Textarea, Button, Group } from '@mantine/core';
+
 
 function Contact() {
 
@@ -18,35 +16,35 @@ function Contact() {
 
     const form = useRef<HTMLFormElement>(null);
 
-    const sendEmail = (e: any) => {
+    const sendEmail = (e: React.FormEvent) => {
         e.preventDefault();
 
-        setNameError(name === '');
-        setEmailError(email === '');
-        setMessageError(message === '');
+        setNameError(name.trim() === '');
+        setEmailError(email.trim() === '');
+        setMessageError(message.trim() === '');
 
-        /* Uncomment below if you want to enable the emailJS */
+        if (name !== '' && email !== '' && message !== '') {
+            const templateParams = {
+                name,
+                email,
+                message,
+            };
 
-        // if (name !== '' && email !== '' && message !== '') {
-        //   var templateParams = {
-        //     name: name,
-        //     email: email,
-        //     message: message
-        //   };
-
-        //   console.log(templateParams);
-        //   emailjs.send('service_id', 'template_id', templateParams, 'api_key').then(
-        //     (response) => {
-        //       console.log('SUCCESS!', response.status, response.text);
-        //     },
-        //     (error) => {
-        //       console.log('FAILED...', error);
-        //     },
-        //   );
-        //   setName('');
-        //   setEmail('');
-        //   setMessage('');
-        // }
+            console.log(templateParams);
+            emailjs
+                .send('service_id', 'template_id', templateParams, 'api_key')
+                .then(
+                    (response) => {
+                        console.log('SUCCESS!', response.status, response.text);
+                    },
+                    (error) => {
+                        console.log('FAILED...', error);
+                    }
+                );
+            setName('');
+            setEmail('');
+            setMessage('');
+        }
     };
 
     return (
@@ -54,59 +52,48 @@ function Contact() {
             <div className="items-container">
                 <div className="contact_wrapper">
                     <h1>Contact Me</h1>
-                    <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
-                    <Box
-                        ref={form}
-                        component="form"
-                        noValidate
-                        autoComplete="off"
-                        className='contact-form'
-                    >
-                        <div className='form-flex'>
-                            <TextField
+                    <p>Reach out for any collaboration, business, or employment inquiries!</p>
+
+                    <form ref={form} className="contact-form" onSubmit={sendEmail}>
+                        <Group grow className="form-flex">
+                            <TextInput
                                 required
-                                id="outlined-required"
                                 label="Your Name"
                                 placeholder="What's your name?"
                                 value={name}
-                                onChange={(e) => {
-                                    setName(e.target.value);
-                                }}
-                                error={nameError}
-                                helperText={nameError ? "Please enter your name" : ""}
+                                onChange={(e) => setName(e.currentTarget.value)}
+                                error={nameError && 'Please enter your name'}
                             />
-                            <TextField
+                            <TextInput
                                 required
-                                id="outlined-required"
                                 label="Email / Phone"
                                 placeholder="How can I reach you?"
                                 value={email}
-                                onChange={(e) => {
-                                    setEmail(e.target.value);
-                                }}
-                                error={emailError}
-                                helperText={emailError ? "Please enter your email or phone number" : ""}
+                                onChange={(e) => setEmail(e.currentTarget.value)}
+                                error={emailError && 'Please enter your email or phone number'}
                             />
-                        </div>
-                        <TextField
+                        </Group>
+
+                        <Textarea
                             required
-                            id="outlined-multiline-static"
                             label="Message"
                             placeholder="Send me any inquiries or questions"
-                            multiline
-                            rows={10}
-                            className="body-form"
+                            minRows={8}
                             value={message}
-                            onChange={(e) => {
-                                setMessage(e.target.value);
-                            }}
-                            error={messageError}
-                            helperText={messageError ? "Please enter the message" : ""}
+                            onChange={(e) => setMessage(e.currentTarget.value)}
+                            error={messageError && 'Please enter the message'}
+                            className="body-form"
                         />
-                        <Button variant="contained" endIcon={<SendIcon />} onClick={sendEmail}>
+
+                        <Button
+                            type="submit"
+                            rightSection={<span>➤</span>}
+                            mt="md"
+                            className="submit-btn"
+                        >
                             Send
                         </Button>
-                    </Box>
+                    </form>
                 </div>
             </div>
         </div>
