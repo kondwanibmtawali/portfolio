@@ -1,0 +1,77 @@
+.dark-mode .soccer-section {
+    background-color: rgba(0, 0, 0, 0.433);
+}
+
+.soccer-section {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 0px 15%;
+    min-height: 700px;
+
+    // Change background image for the soccer page
+    background-image: url("../images/bg-soccer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    .content {
+        text-align: left;
+        z-index: 2;
+
+        p {
+            font-size: 1.5em;
+            margin-block-start: 0px;
+            margin-block-end: 20px;
+            color: white; // same as about section
+        }
+
+        h1 {
+            font-size: 5em;
+            margin-block-start: 0px;
+            margin-block-end: 20px;
+            color: white;
+        }
+    }
+
+    .image-wrapper {
+        z-index: 2;
+
+        img {
+            width: 400px; // bigger than profile circle
+            border-radius: 20px; // not circular, more like a blog image
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+        }
+    }
+}
+
+// Reuse responsiveness
+@media screen {
+    @media (max-width:768px) {
+        .soccer-section {
+            padding-top: 150px;
+            display: block;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .soccer-section .content {
+            width: 90%;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-bottom: 5%;
+        }
+
+        .soccer-section .image-wrapper {
+            padding-left: 5%;
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -7,24 +7,30 @@
     color: rgb(39, 40, 34);
 }
 
-.vertical-timeline-element p {
+.vertical-timeline p {
     color: rgb(39, 40, 34);
 }
 
-.vertical-timeline-element h3 {
+.vertical-timeline h3 {
     color: rgb(39, 40, 34);
 }
 
-.vertical-timeline-element h4 {
+.vertical-timeline h4 {
     color: rgb(39, 40, 34);
 }
 
-.vertical-timeline-element span {
+.vertical-timeline span {
     color: rgb(39, 40, 34);
 }
 
-.vertical-timeline-element .vertical-timeline-element-date {
+.vertical-timeline .vertical-timeline-date {
     color: white;
+}
+
+.custom-date {
+    font-weight: 600 !important;
+    color: #ffffff !important; // or match your theme
+
 }
 
 .svg-inline--fa {

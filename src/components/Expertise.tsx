@@ -26,6 +26,7 @@ const labelsSecond = [
     "Itertools",
     "Json",
     "Vite",
+    "D3-Geo",
 ];
 
 const labelsThird = [
@@ -48,6 +49,8 @@ const labelsFourth = [
     "Java",
     "C/C++",
     "Assembly",
+    "Ansible",
+    "Docker",
 ];
 
 function Expertise() {

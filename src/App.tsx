@@ -5,14 +5,17 @@ import {
     Expertise,
     Project,
     Contact,
+    Football,
     Navigation,
     Footer,
-} from "./components";
+} from "../src/components";
 import FadeIn from './components/FadeIn';
+import FootballJourney from './components/SoccerJourney';
 import './index.scss';
 
 function App() {
     const [mode, setMode] = useState<string>('dark');
+    const [showJourney, setShowJourney] = useState(false);
 
     const handleModeChange = () => {
         if (mode === 'dark') {
@@ -24,18 +27,35 @@ function App() {
 
     useEffect(() => {
         window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-    }, []);
+    }, [showJourney]);
 
     return (
         <div className={`main-container ${mode === 'dark' ? 'dark-mode' : 'light-mode'}`}>
             <Navigation parentToChild={{ mode }} modeChange={handleModeChange} />
+
             <FadeIn transitionDuration={700}>
-                <Main />
-                <Expertise />
-                <Timeline />
-                <Project />
-                <Contact />
+                {showJourney ? (
+                    <div id="soccer-journey">
+                        <FootballJourney
+                            onBack={() => setShowJourney(false)}
+                            mode={mode}
+                            modeChange={handleModeChange}
+                        />
+                    </div>
+                ) : (
+                    <>
+                        <Main />
+                        <Expertise />
+                        <Timeline />
+                        <Project />
+                        <div id="soccer">
+                            <Football onShowJourney={() => setShowJourney(true)} />
+                        </div>
+                        <Contact />
+                    </>
+                )}
             </FadeIn>
+
             <Footer />
         </div>
     );
