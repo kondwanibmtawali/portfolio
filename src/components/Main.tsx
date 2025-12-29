@@ -1,8 +1,8 @@
 import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import '/home/kondwani/github-portfolio/src/assets/styles/Main.scss';
-import ProfileIMG from '/home/kondwani/github-portfolio/src/assets/images/ProfileIMG.png';
+import "../assets/styles/Main.scss";
+import ProfileIMG from "../assets/images/ProfileIMG.png";
 
 function Main() {
 

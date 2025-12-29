@@ -1,16 +1,15 @@
 import React from "react";
-import bulldogsocial from '/home/kondwani/github-portfolio/src/assets/images/BulldogSocial.png';
-import chirper from '/home/kondwani/github-portfolio/src/assets/images/Chirper.png';
-import encoder from '/home/kondwani/github-portfolio/src/assets/images/Encoder.png';
-import nlp from '/home/kondwani/github-portfolio/src/assets/images/Natural Language Processing.png';
-import primes from '/home/kondwani/github-portfolio/src/assets/images/Primes.png';
-import taskmanager from '/home/kondwani/github-portfolio/src/assets/images/Task Manager.png';
-import ufcproj from '/home/kondwani/github-portfolio/src/assets/images/UFC Data Proj.png';
-import '/home/kondwani/github-portfolio/src/assets/styles/Project.scss';
-import Konnectly from '/home/kondwani/github-portfolio/src/assets/images/Konnectly.png';
 import ansible from '../assets/images/ansible.png';
 import cronhelper from '../assets/images/cronhelper.png';
-
+import Konnectly from '../assets/images/Konnectly.png';
+import "../assets/styles/Project.scss";
+import ufcproj from '../assets/images/UFC Data Proj.png';
+import taskmanager from '../assets/images/Task Manager.png';
+import primes from '../assets/images/Primes.png';
+import nlp from '../assets/images/Natural Language Processing.png';
+import encoder from '../assets/images/Encoder.png';
+import chirper from '../assets/images/Chirper.png';
+import bulldogsocial from '../assets/images/BulldogSocial.png';
 
 function Project() {
     return (

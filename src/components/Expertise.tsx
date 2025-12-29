@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faGithub, faPython } from '@fortawesome/free-brands-svg-icons';
 import { faBrain } from '@fortawesome/free-solid-svg-icons';
 import Chip from '@mui/material/Chip';
-import '/home/kondwani/github-portfolio/src/assets/styles/Expertise.scss';
+import "../assets/styles/Expertise.scss";
 
 const labelsFirst = [
     "Data Cleaning & Transformation",
