@@ -1,5 +1,5 @@
 {
-  "name": "github-portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://kondwanibmtawali.github.io/portfolio",
@@ -54,6 +54,7 @@
   "devDependencies": {
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
-    "@types/react-vertical-timeline-component": "^3.3.6"
+    "@types/react-vertical-timeline-component": "^3.3.6",
+    "gh-pages": "^6.3.0"
   }
 }
