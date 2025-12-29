@@ -32,9 +32,10 @@ Projects include:
 ---
 
 ## 📫 Let’s Connect
-- **GitHub:** [kondwani-mtawali](https://github.com/kondwani-mtawali)  
+- **GitHub:** [kondwanibmtawali](https://github.com/kondwanibmtawali)  
 - **LinkedIn:** (https://www.linkedin.com/in/kondwani-mtawali-a52072307/) 
-- **Email:** (kmtawali8@gmail.com) 
+- **Indeed:** (https://profile.indeed.com/)
+- **Email:** (kmtawalibmtawali@gmail.com) 
 
 ---
 
