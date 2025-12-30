@@ -112,8 +112,8 @@ const FootballJourney: React.FC<FootballJourneyProps> = ({ onBack, mode, modeCha
                                 <h3 className="vertical-timeline-element-title">NIACC</h3>
                                 <p>
                                     After spending a year with FC Richmond I decided to take the next step in my soccer journey and
-                                    decided to join the college soccer team at NIACC. This was a significant step in my journey as it allowed me
-                                    to compete at a higher level and gain experience in a more structured, competitive environment.
+                                    decided to join a junior college team. North Iowa Area CC gave me the best scholarship and opportunity to further my development.
+                                    This was a significant step in my journey as it allowed me to compete at a higher level and gain experience in a more structured, competitive environment.
                                 </p>
                             </VerticalTimelineElement>
 
@@ -151,11 +151,11 @@ const FootballJourney: React.FC<FootballJourneyProps> = ({ onBack, mode, modeCha
                             >
                                 <h3 className="vertical-timeline-element-title">Blazers Football Club</h3>
                                 <p>
-                                    With a full year of college soccer experience under my belt, I was eager to take myself even further. I joined the Blazers,
-                                    a semi-professional team in Fairfax County, VA. The Blazers were a semi-professional team that played in the UPS League,
-                                    considered the fourth tier of professional soccer in the United States. I was able to compete against some of the great players,
-                                    including those who went on to play professionally. This experience was invaluable and helped me to develop my skills and gain valuable
-                                    experience in a semi-professional environment.
+                                    With a full year of college soccer experience under my belt, I was eager to take myself even further. I joined Blazers FC,
+                                    a semi-professional team in Fairfax County, VA. The Blazers competed in the UPSL,
+                                    considered the fourth tier of soccer in the United States. I was able to compete against some great players,
+                                    including some who went on to play professionally. This experience was invaluable and helped me to develop my skills and gain
+                                    experience in a structured environment.
                                 </p>
                             </VerticalTimelineElement>
 
@@ -194,10 +194,10 @@ const FootballJourney: React.FC<FootballJourneyProps> = ({ onBack, mode, modeCha
                                 <h3 className="vertical-timeline-element-title">Concordia University, Nebraska</h3>
                                 <p>
                                     Despite the challenges of adapting to a new country and culture, I was determined to pursue my passion for soccer even further.
-                                    I joined the Concordia University, Nebraska soccer team, where I was able to compete at a high level and gain valuable experience
-                                    in a college setting. The team was known for being a strong competitor in its conference, including the GPAC Championship wins and
-                                    National Tournament appearances. I was proud to represent Concordia and contribute toward a team with a winning formula. This experience
-                                    helped me develop my communication and collaboration skills, requiring me to be even more disciplined and dedicated.
+                                    I joined the Concordia University, Nebraska soccer team, where I've been competing at the highest level of my soccer career, gaining valuable experience
+                                    whilst also completing my degree. The team was known for being a strong competitor in its conference, with two conference championship wins and
+                                    National Tournament appearances. I was proud to join Concordia and contribute toward a team with a winning formula. This experience
+                                    helped me develop many of my interpersonal skills. It has forced me to grow as a person, requiring me to be even more disciplined and dedicated.
                                 </p>
                             </VerticalTimelineElement>
 
@@ -239,15 +239,18 @@ const FootballJourney: React.FC<FootballJourneyProps> = ({ onBack, mode, modeCha
                                     several key players resulting in 16 new players joining the squad. The beginning of the season was a struggle, going 2-6 in the first 8 games.
                                     Despite these challenges, the culture within our locker room facilitated change, a turn around, a comeback. In the second half of the season we became a different team. Come play off
                                     time we were ready to compete for the conference championship. On the 11th of November, 2025 we went up against Morningside University for the conference championship. We were able to secure a victory, becoming the 3rd team in program history to win the conference and move on to the National Tournament,
-                                    where we beat the #24 ranked team in the country, and eventually got knocked out by the #3 ranked team in the nation. Although we didn't win the national tournament, it was a valuable
+                                    where we beat the #24 ranked team in the country, and eventually got knocked out by the #3 ranked team in the nation. Becoming part of program history was a valuable
                                     experience that played a significant role in my development as a soccer player and as a person. It was a season that taught me the importance of perseverance,
                                     resilience, and the power of unity.
                                 </p>
                             </VerticalTimelineElement>
 
                         </VerticalTimeline>
-                    </div>
 
+                    </div>
+                    <button onClick={onBack} className="back-button">
+                        ← Back to Portfolio
+                    </button>
                 </div>
             </div>
         </div>

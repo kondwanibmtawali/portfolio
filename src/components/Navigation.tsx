@@ -15,7 +15,6 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
-import Football from "./Soccer";
 
 const drawerWidth = 240;
 const navItems = [['Technicals', 'expertise'], ['History', 'history'], ['Projects', 'projects'],

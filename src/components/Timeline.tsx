@@ -70,7 +70,7 @@ function Timeline() {
                         <h3 className="vertical-timeline-title">IT Management Internship</h3>
                         <h4 className="vertical-timeline-subtitle">Seward, NE</h4>
                         <p>
-                            Computer Deployment Configuration, Network System Management, Cable Termination, IT Operations
+                            Computer Network Configuration, Network System Management, Cable Termination, IT Operations
                         </p>
                     </VerticalTimelineElement>
 

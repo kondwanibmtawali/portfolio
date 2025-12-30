@@ -21,16 +21,16 @@ function Project() {
                     <a href="https://github.com/kondwanibmtawali/konnectly" target="_blank" rel="noreferrer"><img src={Konnectly} className="zoom" alt="thumbnail" width="100%" /></a>
                     <a href="https://github.com/kondwanibmtawali/konnectly" target="_blank" rel="noreferrer"><h2>Data Driven LLM Investment Pathways</h2></a>
                     <p>An interactive web application that allows users to explore detailed economic data for African countries. The app leverages
-                        AI (powered by Grok) to dynamically generate personalized investment opportunity reports based on the country's real-time economic metrics. These reports
+                        AI (powered by Grok) to dynamically generate personalized investment opportunity responses based on the country's real-time economic metrics. These reports
                         highlight viable investment pathways—such as agriculture, manufacturing, or tourism—complete with data-backed insights, sector analysis, and growth potential.</p>
                 </div>
                 {/* Interactive Offset-Based String Encryptor */}
                 <div className="project">
                     <a href="https://github.com/kondwanibmtawali/encoder" target="_blank" rel="noreferrer"><img src={encoder} className="zoom" alt="thumbnail" width="100%" /></a>
                     <a href="https://github.com/kondwanibmtawali/encoder" target="_blank" rel="noreferrer"><h2>Interactive Offset‑Based String Encryptor</h2></a>
-                    <p>Designed and implemented an interactive string encoder in x86-64 assembly. The program prompts the user for a custom offset and accepts up to five input strings,
-                        applying a Caesar-style shift to ASCII characters while dynamically flipping character case. Leveraged system calls, standard C library functions, and
-                        memory operations to manage string input, encryption, and output formatting</p>
+                    <p>Designed and implemented an interactive string encoder in x86-64 assembly. The program prompts the user for a custom offset value and accepts up to five input strings,
+                        applying a Caesar-style shift to ASCII characters while dynamically flipping character cases. Leveraged system calls, standard C library functions, and
+                        memory operations to manage string input, encryption, and output formatting.</p>
                 </div>
                 {/* Natural Language Processing */}
                 <div className="project">
@@ -46,23 +46,23 @@ function Project() {
                     <a href="https://github.com/kondwanibmtawali/taskmanager" target="_blank" rel="noreferrer"><h2>Task Management Web App (Django REST + React) </h2></a>
                     <p>Designed and implemented a full-stack web application for managing tasks and group collaboration using Django REST Framework on the backend and React with
                         React Query on the frontend. Features include task creation, due dates, prioritization levels, file uploads, link attachments, and group work support with
-                        role-based permissions. Users can view, delete, or reschedule tasks through a clean, student-styled UI..</p>
+                        role-based permissions. Users can view, delete, or reschedule tasks through a clean, self-styled UI.</p>
                 </div>
                 {/* Bulldog Social */}
                 <div className="project">
                     <a href="https://github.com/kondwanibmtawali/bulldogsocial" target="_blank" rel="noreferrer"><img src={bulldogsocial} className="zoom" alt="thumbnail" width="100%" /></a>
                     <a href="https://github.com/kondwanibmtawali/bulldogsocial" target="_blank" rel="noreferrer"><h2>HACKATHON 2025: Social Media Prototype</h2></a>
                     <p>Developed a prototype web application in 72 hours for the 2025 Hackathon addressing the lack of a unified student engagement platform on campus.
-                        Bulldog Social reimagines a social media-style experience tailored for students, drawing inspiration from platforms used at prior institutions. The app
-                        enables Concordia students to explore recommended interest-based spaces, join communities, access a student marketplace, manage close friend connections, and
+                        Bulldog Social reimagines a social media-style experience tailored for students, drawing inspiration from platforms used at prior institutions. The prototype
+                        is designed to enable Concordia students to explore recommended interest-based spaces, join communities, access a student marketplace, manage close friend connections, and
                         access help resources—all within a clean, minimal interface.</p>
                 </div>
                 {/* Cronjob Script */}
                 <div className="project">
                     <a href="https://github.com/kondwanibmtawali/crontab-helper" target="_blank" rel="noreferrer"><img src={cronhelper} className="zoom" alt="thumbnail" width="100%" /></a>
                     <a href="https://github.com/kondwanibmtawali/crontab-helper" target="_blank" rel="noreferrer"><h2>Automatated Cronjob Script</h2></a>
-                    <p>The script works interactively: it prompts the user for the path to an executable program and a desired schedule (offering predefined options like "hourly" or "daily,"
-                        or allowing custom cron expressions), validates that the program exists (using tools like which) and that the cron syntax is correct, displays a confirmation of the
+                    <p>Interactive script which prompts the user for the path to an executable program and a desired schedule (offering predefined options like "hourly" or "daily,"
+                        or allowing custom cron expressions), validates that the program exists and that the cron syntax is correct, displays a confirmation of the
                         generated entry, and then automatically installs the job into the user's crontab.</p>
                 </div>
                 {/* Chirper: Twitter Clone */}
@@ -72,15 +72,15 @@ function Project() {
                     <p>Chirper is a collaborative, full-stack web application that replicates core features of Twitter, enabling users to post short messages ("chirps") and
                         interact with them via likes. This project was built as part of a team, with shared responsibilities and version control managed through GitHub.
                         I contributed primarily to the UI design of the homepage, ensuring a modern and intuitive user experience, and I designed and implemented the backend models for
-                        posting and displaying chirps (short-form messages) and liking chirps and tracking like counts per user.</p>
+                        posting and displaying chirps (short-form messages) and liking chirps and tracking like counts per chirp.</p>
                 </div>
                 {/* MMA Predictions */}
                 <div className="project">
                     <a href="https://github.com/kondwanibmtawali/machinelearning" target="_blank" rel="noreferrer"><img src={ufcproj} className="zoom" alt="thumbnail" width="100%" /></a>
                     <a href="https://github.com/kondwanibmtawali/machinelearning" target="_blank" rel="noreferrer"><h2>Predicting MMA Outcomes with Machine Learning</h2></a>
                     <p>A data science project focused on predicting the outcomes of UFC MMA fights using historical fighter statistics and advanced modeling techniques. I scraped and cleaned fighter data,
-                        engineered matchup-specific features, and trained machine learning models to predict the winner of a bout between two fighters.The project evaluates model accuracy by comparing
-                        predictions with actual fight results, providing insight into which fighting metrics most strongly influence success in the octagon.</p>
+                        engineered matchup-specific features, and trained machine learning models to predict the winner of a bout between two fighters. The project evaluates model accuracy by comparing
+                        predictions with actual fight results, providing insight into which fighting metrics most strongly influence success in mixed martial arts.</p>
                 </div>
                 {/* Bit-Level Sieve of Eratosthenes in x86-64 Assembly */}
                 <div className="project">

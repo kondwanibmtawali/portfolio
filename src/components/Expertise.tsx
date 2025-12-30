@@ -19,7 +19,6 @@ const labelsFirst = [
 const labelsSecond = [
     "Pandas",
     "NumPy",
-    "Scikit-Learn",
     "SK-Learn",
     "Seaborn",
     "Matplotlib",
@@ -36,8 +35,6 @@ const labelsThird = [
     "React",
     "Vite",
     "HTML/CSS",
-    "GitHub",
-    "Linux",
     "JSON",
     "React",
 ];
