@@ -6,9 +6,9 @@ import {
     Project,
     Contact,
     Football,
+    Currently,
     Navigation,
     Footer,
-    Currently,
 } from "../src/components";
 import FadeIn from './components/FadeIn';
 import FootballJourney from './components/SoccerJourney';
@@ -52,7 +52,9 @@ function App() {
                         <div id="soccer">
                             <Football onShowJourney={() => setShowJourney(true)} />
                         </div>
-                        <Currently />
+                        <div id="currently">
+                            <Currently />
+                        </div>
                         <Contact />
                     </>
                 )}

@@ -21,7 +21,7 @@ function Project() {
                     <a href="https://github.com/kondwanibmtawali/konnectly" target="_blank" rel="noreferrer"><img src={Konnectly} className="zoom" alt="thumbnail" width="100%" /></a>
                     <a href="https://github.com/kondwanibmtawali/konnectly" target="_blank" rel="noreferrer"><h2>Data Driven LLM Investment Pathways</h2></a>
                     <p>An interactive web application that allows users to explore detailed economic data for African countries. The app leverages
-                        AI (powered by Grok) to dynamically generate personalized investment opportunity responses based on the country's real-time economic metrics. These reports
+                        World Bank's Public API & AI (powered by Grok) to dynamically generate personalized investment opportunity responses based on the country's real-time economic metrics. These reports
                         highlight viable investment pathways—such as agriculture, manufacturing, or tourism—complete with data-backed insights, sector analysis, and growth potential.</p>
                 </div>
                 {/* Interactive Offset-Based String Encryptor */}
