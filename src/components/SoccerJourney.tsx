@@ -111,9 +111,9 @@ const FootballJourney: React.FC<FootballJourneyProps> = ({ onBack, mode, modeCha
                             >
                                 <h3 className="vertical-timeline-element-title">NIACC</h3>
                                 <p>
-                                    After spending a year with FC Richmond I decided to take the next step in my soccer journey and
-                                    decided to join a junior college team. North Iowa Area CC gave me the best scholarship and opportunity to further my development.
-                                    This was a significant step in my journey as it allowed me to compete at a higher level and gain experience in a more structured, competitive environment.
+                                    After a year of club soccer I
+                                    decided to join a junior college team. North Iowa Area CC offered me a great scholarship and an opportunity to further my development.
+                                    This was a significant step in my journey as it allowed me to compete at a higher level and gain experience in a more structured environment.
                                 </p>
                             </VerticalTimelineElement>
 
@@ -154,8 +154,8 @@ const FootballJourney: React.FC<FootballJourneyProps> = ({ onBack, mode, modeCha
                                     With a full year of college soccer experience under my belt, I was eager to take myself even further. I joined Blazers FC,
                                     a semi-professional team in Fairfax County, VA. The Blazers competed in the UPSL,
                                     considered the fourth tier of soccer in the United States. I was able to compete against some great players,
-                                    including some who went on to play professionally. This experience was invaluable and helped me to develop my skills and gain
-                                    experience in a structured environment.
+                                    including some who went on to play professionally. This experience was invaluable, helping me develop my skills and gain
+                                    experience colloborating in a competitve environment.
                                 </p>
                             </VerticalTimelineElement>
 
@@ -174,7 +174,7 @@ const FootballJourney: React.FC<FootballJourneyProps> = ({ onBack, mode, modeCha
                                 contentArrowStyle={{
                                     borderRight: '7px solid white',
                                 }}
-                                date="2024 - Present"
+                                date="Fall 2024"
                                 dateClassName="custom-date"
                                 iconStyle={{
                                     background: '#ffffffff',

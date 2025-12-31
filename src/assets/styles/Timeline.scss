@@ -27,10 +27,13 @@
     color: white;
 }
 
-.custom-date {
-    font-weight: 600 !important;
-    color: #ffffff !important; // or match your theme
+.light-mode .custom-date {
+    color: #000000 !important;
+}
 
+.dark-mode .custom-date {
+    color: #ffffff !important;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 }
 
 .svg-inline--fa {

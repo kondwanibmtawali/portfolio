@@ -10,7 +10,6 @@
         color: var(--page-text);
     }
 
-    /* Dark mode defaults */
     .football-journey-page.dark-mode {
         --page-bg: #0d0d0d;
         --page-text: white;
@@ -20,7 +19,6 @@
         --card-text: #e0e0e0;
     }
 
-    /* Light mode overrides */
     .football-journey-page.light-mode {
         --page-bg: #ffffff;
         --page-text: #1a1a1a;
@@ -39,12 +37,6 @@
         cursor: pointer;
         margin-bottom: 30px;
     }
-
-    // .mode-toggle-only {
-    //     position: absolute;
-    //     top: 15px;
-    //     left: 15px;
-    // }
 
     .vertical-timeline span {
         color: white;
@@ -112,38 +104,25 @@
 
     // Fix date position and prevent overlap
     .custom-date {
-        font-weight: 600 !important;
+        font-weight: 800 !important;
         color: #ffffff !important; // or match your theme
         margin-top: 10px !important; // push date below photo
         text-align: center !important;
         width: 250px !important; // give it space
         transform: none !important; // override absolute positioning shift
+        -webkit-text-stroke: 0.4px black;
+        padding: 4px;
+        font-size: 16px !important;
     }
 
-    /* In light mode, remove the glow (optional – keeps it pure black & white) */
-    .soccer-timeline-wrapper .football-journey-page.light-mode .custom-date {
-        text-shadow: none !important;
-        color: black !important;
-    }
-
-    /* In dark mode, ensure it's white with black outline/glow */
-    .soccer-timeline-wrapper .football-journey-page.dark-mode .custom-date {
-        color: white !important;
-        text-shadow:
-            0 0 8px black,
-            0 0 12px black;
-    }
 
     .journey-content .items-container {
         max-width: 1200px;
-        /* or 1400px – wider than default */
         margin: 0 auto;
         padding: 0 40px;
-        /* extra side padding */
     }
 
     .vertical-timeline {
         padding: 0 100px !important;
-        /* push everything away from edges */
     }
 }

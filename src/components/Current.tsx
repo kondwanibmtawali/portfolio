@@ -35,10 +35,10 @@ function Current() {
 
                     <div className="skill">
                         <FontAwesomeIcon icon={faPersonWalkingArrowRight} size="3x" />
-                        <h3>Long Term Goals & Employment Plan</h3>
+                        <h3>Long Term Employment & Education Goals</h3>
                         <p> • Summer 2026: Internship</p>
                         <p> • January 2027: Full-Time Employment </p>
-                        <p> • M.S. Data Science & Analytics</p>
+                        <p> • MS in Data Science & Analytics</p>
                         <p> </p>
 
                     </div>

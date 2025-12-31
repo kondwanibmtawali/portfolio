@@ -6,7 +6,7 @@ import {
     Project,
     Contact,
     Football,
-    Currently,
+    Current,
     Navigation,
     Footer,
 } from "../src/components";
@@ -52,8 +52,8 @@ function App() {
                         <div id="soccer">
                             <Football onShowJourney={() => setShowJourney(true)} />
                         </div>
-                        <div id="currently">
-                            <Currently />
+                        <div id="current">
+                            <Current />
                         </div>
                         <Contact />
                     </>
