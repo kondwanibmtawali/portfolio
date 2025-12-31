@@ -36,7 +36,6 @@ const labelsThird = [
     "Vite",
     "HTML/CSS",
     "JSON",
-    "React",
 ];
 
 const labelsFourth = [
