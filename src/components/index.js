@@ -7,4 +7,4 @@ export { default as Project } from "./Project";
 export { default as Contact } from "./Contact";
 export { default as Football } from "./Soccer";
 export { default as FootballJourney } from "./SoccerJourney";
-export { default as Currently } from "./Currently";
+export { default as Currently } from "./Current";

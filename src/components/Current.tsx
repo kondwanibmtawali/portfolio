@@ -6,7 +6,7 @@ import { faComputer, faPersonWalkingArrowRight, faDatabase } from '@fortawesome/
 import Chip from '@mui/material/Chip';
 import "../assets/styles/Expertise.scss";
 
-function Currently() {
+function Current() {
     return (
         <div className="container" id="expertise">
             <div className="skills-container">
@@ -50,4 +50,4 @@ function Currently() {
     );
 }
 
-export default Currently;
+export default Current;
