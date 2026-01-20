@@ -18,6 +18,7 @@ function Current() {
                         <p> • Computer Organization</p>
                         <p> • Software Engineering</p>
                         <p> • Statistics</p>
+                        <p> • Database & Design Management</p>
                         <p> </p>
 
                     </div>
@@ -25,8 +26,8 @@ function Current() {
                     <div className="skill">
                         <FontAwesomeIcon icon={faDatabase} size="3x" />
                         <h3>Personal Learning</h3>
-                        <p> • Microsoft Azure</p>
-                        <p> • Amazon Web Services</p>
+                        <p> • SQL</p>
+                        <p> • Deep Learning</p>
                         <p> • Data Science & Analytics</p>
                         <p> • Machine Learning</p>
                         <p> </p>
