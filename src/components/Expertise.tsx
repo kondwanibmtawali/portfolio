@@ -10,8 +10,7 @@ const labelsFirst = [
     "Data Cleaning & Transformation",
     "Feature Scaling & Selection",
     "Data Visualization",
-    "Regression & Predictive Modeling",
-    "Decision Trees & Classification",
+    "Predictive Modeling & Classification",
     "Model Evaluation & Tuning",
     "Machine Learning Fundamentals",
 ];
@@ -60,7 +59,7 @@ function Expertise() {
                         <h3>Data Science & Machine Learning</h3>
                         <p> </p>
                         <div className="flex-chips">
-                            <span className="chip-title">Tech stack:</span>
+                            <span className="chip-title">Skills:</span>
                             {labelsFirst.map((label, index) => (
                                 <Chip key={index} className='chip' label={label} />
                             ))}
